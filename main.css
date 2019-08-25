@@ -1,0 +1,71 @@
+nav {
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+.navbar > li {
+	display: inline-block;
+	margin-right: 30px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: white;
+}
+
+main {
+	position: relative;
+}
+
+.profile_pic {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.introduction {
+	max-width: 900px;
+	margin-left: 250px; /* keeps intro apart from profile_pic */
+}
+
+#about > h3 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 24px;
+}
+
+p {
+	font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+	padding-top: 75px;
+	font-family: 'Metrophobic', sans-serif;
+	margin-left: 50px;
+}
+
+.portion {
+	margin-bottom: 75px;
+}
+
+address {
+	text-align: center;
+}
+
+#about, #projects{
+	height: 500px;
+}
+
+#contact {
+	height: 200px;
+} 
+.project {
+	margin-left: 250px;
+}
